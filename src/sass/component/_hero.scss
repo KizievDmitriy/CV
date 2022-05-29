@@ -24,7 +24,12 @@
     @media screen and (min-width: 768px) {
             width: 30%;
             margin-right: 60px;
+            margin-left: 50px;
         }
+    @media screen and (min-width: 1200px) {
+        width: 320px;
+        margin: 0px 40px 0px 0px;     
+    }
     &:hover, :focus{
         transform: scale(1.1);
         border: none;
@@ -53,10 +58,20 @@
         letter-spacing: 0.04em;
         
     }
+    @media screen and(min-width: 1200px) {
+        font-weight: 700;
+        font-size: 80px;
+        letter-spacing: 0.1em;
+    }
 }
 .hero-title-p{
     font-weight: 200;
     font-size: 25px;
     font-style: italic;
     text-transform: capitalize;
+    @media screen and(min-width: 1200px) {
+        font-weight: 400;
+            font-size: 40px;
+            letter-spacing: 0.13em;
+    }
 }

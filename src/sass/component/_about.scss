@@ -2,6 +2,13 @@
     padding: 30px;
     background-color: #272727;
     color: #fff;
+    @media screen and(min-width: 768px) {
+        border-right: 10px solid #c8b392;
+        min-width: 290px;
+    }
+    @media screen and(min-width: 1200px) {
+        min-width: 320px;
+    }
 }
 
 .about-list-title {
@@ -70,10 +77,10 @@
         display: none;
     }
     @media screen and(min-width:768px){
-        margin-left: 30px;
+        margin-left: 10px;
         padding: 4px 6px 4px;
-        font-size: 20px;
-        font-weight: 200;
+        // font-size: 20px;
+        // font-weight: 200;
         &:hover, :focus{
             color: #c8b392;
         }
