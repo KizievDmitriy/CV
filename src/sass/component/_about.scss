@@ -41,8 +41,9 @@
     justify-content: center;
     align-items: center;
     fill: #c8b392;
-    transition: fill 350ms cubic-bezier(0.4, 0, 0.2, 1),
-    -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+    transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1), 
+    -webkit-all 350ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover, &:focus{
         fill: #fff;
         box-shadow: 0px 0px 9px 5px rgba(247, 245, 245, 0.87);
