@@ -1,8 +1,8 @@
 .hero-container{
-    
     @media screen and (min-width: 768px){
         display: flex;
         align-items: center;
+        
     }
 }
 
@@ -30,6 +30,7 @@
     background: inherit;
     @media screen and (max-width: 767px){
         text-align: center;
+        margin-left: auto;
     }
     
 }
