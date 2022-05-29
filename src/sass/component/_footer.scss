@@ -1,0 +1,28 @@
+.footer{
+    position: relative;
+}
+.footer__copyright{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.01em;
+    letter-spacing: 0.02em;
+    color: #c8b392;
+    &::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 1px;
+            width: 100%;
+            background-color: #e1e1e1;
+            
+    }
+}
+.section-footer{
+    padding-bottom: 30px;
+    // background-color: #c8b392;
+    @media screen and(min-width: 1200px) {
+        padding-bottom: 50px;
+    }
+}
