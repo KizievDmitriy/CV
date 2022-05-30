@@ -52,6 +52,9 @@
 
 .hobby-list{
 margin-top: 20px;
+    @media screen and(min-width: 1200px) {
+        display: flex;
+    }
 }
 .hobby-item{
 display: flex;
@@ -65,4 +68,31 @@ margin-left: 20px;
     font-size: 18px;
     line-height: 1.15;
     margin-left: 25px;
+}
+.hobby-svg{
+    padding: 6px;
+    border-radius: 50%;
+    border-color: inherit;
+    background-color: inherit;
+    fill: #272727;
+    box-shadow: none;
+    transform: scale(1);
+    transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            fill: #fff;
+            border-color: #fff;
+            box-shadow: 0px 0px 9px 5px rgba(200, 179, 146, 0.87);
+                -webkit-box-shadow: 0px 0px 9px 5px rgba(200, 179, 146, 0.87);
+                -moz-box-shadow: 0px 0px 9px 5px rgba(200, 179, 146, 0.87);
+            background-color: #272727;
+            transform: scale(1.1);
+        }
+        @media screen and(min-width: 768px) {
+            width: 60px;
+            height: 60px;
+            
+        }
 }
