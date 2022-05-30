@@ -1,9 +1,9 @@
+const btnBurger = document.querySelector('.burger');
 
-    // const burger = document.getElementById('burger');
-    // const navLinks = document.querySelector('.nav-links');
+btnBurger.addEventListener('click', btnToggle);
 
-    // burger.addEventListener('click', () => {
-    // navLinks.classList.toggle('active');
-    // })
-
+function btnToggle() {
+    btnBurger.classList.toggle("toggled")
+};
+    
 
