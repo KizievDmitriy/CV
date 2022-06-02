@@ -7,23 +7,13 @@
     border-bottom: 1px solid #ececec;
     background-color: #c8b392;
     @media screen and (min-width: 768px){
-        // &::after{
-        //     content: "";
-        //         display: block;
-        //         position: absolute;
-        //         top: 0;
-        //         right: 0;
-        //         width: 49%;
-        //         height: 250%;
-        //         z-index: -6;
-        //         background: #c8b392;
-        // }
+        
     }
 }
 .header__container{
     display: flex;
     justify-content: center;
-        align-items: center;
+    align-items: center;
     
     @media screen and (min-width: 768px) {
         

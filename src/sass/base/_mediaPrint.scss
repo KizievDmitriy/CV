@@ -1,0 +1,60 @@
+@media print {
+
+    /*для печати*/
+   body.body{
+       padding: 0;
+   }
+
+    header,
+    footer,
+    .portfolio {
+        display: none
+    }
+    .hero-container{
+        display: flex;
+        align-items: center;
+    }
+    div.thumb {
+        width: 220px;
+        margin: 0px 40px 0px 40px;
+    }
+    
+    .hero-title {
+        font-weight: 700;
+        font-size:40px;
+        letter-spacing: 0.1em;
+    }
+    .hero-title-p {
+        font-weight: 400;
+        font-size: 40px;
+        letter-spacing: 0.13em;
+    }
+    .about-list{
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+            border-right: 10px solid rgb(200, 179, 146);
+            min-width: 300px;
+    }
+    .above {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    address>.link-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .main-wrap {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .about-list-itm-adress:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .about-list-link-name {
+        margin-left: 5px;
+        padding: 4px 6px;
+    }
+    
+}
