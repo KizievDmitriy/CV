@@ -1,18 +1,29 @@
+address{
+    font-style: normal;
+}
+
 .about-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 30px;
     background-color: #272727;
     color: #fff;
     @media screen and(min-width: 768px) {
         border-right: 10px solid #c8b392;
         min-width: 290px;
+        padding: 60px 35px;
     }
     @media screen and(min-width: 1200px) {
         min-width: 320px;
+        padding: 30px;
+
     }
 }
 
 .about-list-title {
     margin-bottom: 20px;
+    
 }
 
 
@@ -30,6 +41,12 @@
 .about-list-itm{
     &:not(:last-child){
         margin-bottom: 20px;
+        @media screen and(min-width: 768px) {
+            margin-bottom: 60px;
+        }
+        @media screen and(min-width: 1200px) {
+            margin-bottom: 20px;
+        }
     }
     
 }

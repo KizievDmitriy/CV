@@ -2,6 +2,7 @@
     @media screen and(min-width: 768px) {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         margin-left: 30px;
     }
     
@@ -11,17 +12,18 @@
 .title{
     margin-bottom: 20px;
     margin-top: 20px;
-    @media screen and(min-width:768px) {
+    @media screen and(min-width: 768px) {
         margin-top: 0;
     }
+       
 }
 .tittle-p{
     padding-left: 20px;
     margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+   
 }
-
-
-
 
 .education-list{
  padding-left: 20px;
@@ -29,30 +31,31 @@
 
 .education-item{
     padding-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-left: 3px dotted #272727;
     
-    &>span{
+    &>h3>span{
         color: #c8b392;
         font-weight: 600;
         border-bottom: 1px solid #c8b392;
+        margin-left: 10px;
         
     }
 
     &>p{
-        margin-top: 10px;
+        margin-top: 5px;
         font-style: italic;
         font-weight: bold;
     }
 
-    &>h3{
+    &>h3:not(:first-child){
         margin-top: 10px;
     }
 }
 
 
 .hobby-list{
-margin-top: 20px;
+margin-top: 10px;
     @media screen and(min-width: 1200px) {
         display: flex;
     }
@@ -98,7 +101,9 @@ margin-left: 20px;
         }
 }
 
-
+.project{
+    display: none;
+}
 .project-item{
         border-left: 3px solid #c8b392;
         &>h3>a{
