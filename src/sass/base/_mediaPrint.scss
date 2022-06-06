@@ -1,17 +1,21 @@
 @media print {
 
     /*для печати*/
+
    body.body{
-       padding: 0px;   
+       padding: 0px;
+       & main>.section{
+        padding-top: 20px;
+        padding-bottom: 20px;
+       }  
    }
-   section{
-    padding: 0px;
-   }
+   
    div>div.project {
        display: block;
    }
     header,
     footer,
+    .burger>div,
     .portfolio {
         display: none
     }
@@ -43,46 +47,71 @@
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
             border-right: 10px solid rgb(200, 179, 146);
-            min-width: 300px;
+            min-width: 285px;
             
     }
     .above {
         display: flex;
         flex-direction: column;
         margin-left: 30px;
+
+        &>.tittle-p{
+        font-weight: bold;
+        margin-bottom: 10px;
+        }
     }
+
+   .education-item>.project-item-p, .education-item>p, .hobby-item>p{
+       font-size: 12px;
+   }
+
     address>.link-wrapper {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
         margin-right: auto;
     }
+
     .main-wrap {
         display: flex;
         flex-wrap: nowrap;
     }
-    .about-list{
-        padding: 20px;
+
+    
+    .about-list-itm>.about-list-title{
+        margin-bottom: 10px;
     }
+    .about-list-itm-link>svg{
+        width: 20px;
+        height: 20px;
+    }
+    .about-lang-item{
+        font-size: 14px;
+    }
+
     .about-list-itm-adress:not(:last-child) {
         margin-bottom: 5px;
     }
+
     .about-list-link-name {
         margin-left: 5px;
-        padding: 4px 6px;
+        
     }
+
     p, .hobby-p{
         font-weight: 200;
         font-size: 14px;
         margin-bottom: 5px;       
     }
+
     h2{
         font-weight: 600;
         font-size: 18px;
     }
+
     h3{
         font-weight: 600;
-        font-size: 16px;
+        font-size: 14px;
         
     }
     
@@ -90,5 +119,8 @@
         display: flex;
         margin-top: 0;
     }
-    
+    .hobby-item>svg.hobby-svg{
+        width: 30px;
+        height: 30px;
+    }
 }
