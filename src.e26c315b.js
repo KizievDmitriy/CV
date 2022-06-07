@@ -9,4 +9,4 @@ const e=document.querySelector(".burger"),t=document.querySelector(".navrr"),o=d
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/burgerMenu"),require("./js/swiper");
 },{"./sass/main.scss":"clu1","./js/burgerMenu":"mZc6","./js/swiper":"lr0c"}]},{},["Focm"], null)
-//# sourceMappingURL=/CV/src.d558117c.js.map
+//# sourceMappingURL=/CV/src.e26c315b.js.map
