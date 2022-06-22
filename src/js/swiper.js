@@ -6,6 +6,8 @@ export  const swiper = new Swiper('.swiper', {
           // If we need pagination
           pagination: {
             el: '.swiper-pagination',
+            clickable: true,
+            // dynamicBullets: true,
           },
 
           // Navigation arrows
@@ -13,5 +15,9 @@ export  const swiper = new Swiper('.swiper', {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
           },
-
+          
+          // autoplay: {
+          // delay: 2000,
+          // disableOnInteraction: false,
+          // },
        });
