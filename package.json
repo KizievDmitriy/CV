@@ -2,6 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
+  "main": "index.html",
   "homepage": "https://KizievDmitriy.github.io/CV",
   "scripts": {
     "start": "parcel src/*.html",
