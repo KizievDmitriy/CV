@@ -13,10 +13,10 @@
     width: 8px;
 }
 
-::-webkit-scrollbar-track {
-    background-color: inherit;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 90.1%, rgba(200, 179, 146, 1) 90.1%);
-}
+// ::-webkit-scrollbar-track {
+//     background-color: inherit;
+//     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 90.1%, rgba(200, 179, 146, 1) 90.1%);
+// }
 
 ::-webkit-scrollbar-thumb {
     background-color: #c8b392;
@@ -26,10 +26,4 @@
 
 
 
-// .example .background {
-//   height: 240px;
-//   // Путь к изображениям из SASS-файла всегда такой, как из папки css
-//   background-image: url('../images/demo.jpg');
-//   background-size: cover;
-//   background-position: center;
-// }
+

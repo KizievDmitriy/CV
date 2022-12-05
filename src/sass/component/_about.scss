@@ -9,12 +9,12 @@ address{
     padding: 30px;
     background-color: #272727;
     color: #fff;
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         border-right: 10px solid #c8b392;
         min-width: 290px;
         padding: 60px 35px;
     }
-    @media screen and(min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
         min-width: 320px;
         padding: 30px;
 
@@ -31,7 +31,7 @@ address{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    @media screen and(min-width:768px) {
+    @media screen and (min-width: 768px) {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
@@ -41,24 +41,24 @@ address{
 .about-list-itm{
     &:not(:last-child){
         margin-bottom: 20px;
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             margin-bottom: 60px;
         }
-        @media screen and(min-width: 1200px) {
+        @media screen and (min-width: 1200px) {
             margin-bottom: 20px;
         }
     }
     
 }
 .about-list-itm-adress{
-    @media screen and(max-width: 767px) {
+    @media screen and (max-width: 767px) {
     width: 40px;
     height: 40px;
         &:not(:first-child){
         margin-left: 20px;
     }
     }
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         &:not(:last-child){
             margin-bottom: 10px;
         }
@@ -75,7 +75,7 @@ address{
     box-shadow: none;
     transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1), 
     -webkit-all 350ms cubic-bezier(0.4, 0, 0.2, 1);
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         border-radius: 4px;
         
     }
@@ -90,10 +90,10 @@ address{
 .about-list-link-name {
     color: #fff;
     transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
-    @media screen and(max-width:767px) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
-    @media screen and(min-width:768px){
+    @media screen and (min-width: 768px){
         margin-left: 10px;
         padding: 4px 6px 4px;
         // font-size: 20px;
